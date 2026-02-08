@@ -1,1 +1,35 @@
-
+{
+  "dialog_config": {
+    "title": "Premium DPMods Login ",
+    "subtitle": "Please enter your credentials or contact the administrator to activate your subscription",
+    "background_color_hex": "#FFFFFF",
+    "profile_image_url": "https://riot-us.com/wp-content/uploads/2025/09/Still-23-%C2%A9Copyright_-%C2%A9Koyoharu-Gotoge-_-SHUEISHA-Aniplex-ufotable.jpg",
+    "button_login_text": "Login",
+    "button_contact_text": "Admin Contact",
+    "admin_contact_url": "https://t.me/dp_mods"
+  },
+  "status_config": {
+    "maintenance_enabled": false,
+    "maintenance_message": "The server is currently undergoing scheduled maintenance. Please check back soon!",
+    "force_show_enabled": false,
+    "remote_check_interval_ms": 30000,
+    "dialog_show_interval_ms": 7200000,
+    "auth_success_toast": "Login successful! Welcome to the premium features.",
+    "auth_expired_toast": "Subscription expired. Please renew it from admin.",
+    "auth_invalid_toast": "Invalid Username, Password, or Device ID."
+  },
+  "users": [
+    {
+      "username": "test_user",
+      "password": "test_pass",
+      "device_id": "8e3d64c8-3c99-44d5-947b-example00002",
+      "expiry_date_utc": "2024-11-01"
+    },
+    {
+      "username": "user123",
+      "password": "pass456",
+      "device_id": "8e3d64c8-3c99-44d5-947b-example00001",
+      "expiry_date_utc": "2025-12-31"
+    }
+  ]
+}
